@@ -8,6 +8,7 @@ export interface ContentBlockProps {
   icon: string;
   title?: string;
   subtitle?: string;
+  link?: string;
   content: string;
   image?: ImageItem[];
   section?: {

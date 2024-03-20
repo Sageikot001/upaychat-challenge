@@ -66,30 +66,51 @@ export const Styles = createGlobalStyle`
           font-size: 32px;
         }
     }
-
-
-
+    
+    
+    
     h3,
-    h4,
-    h5,
-    h6 {
+    h4
+     {
+        font-size: 40px;
+        font-weight:300;
+        line-height: 2rem;
+        padding: 0.5rem 0;
+        text-transform: uppercase;
+        color: #000;
         font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
-        font-size: 56px;
-        line-height: 1.18;
-
+        
         @media only screen and (max-width: 890px) {
-          font-size: 47px;
+          font-size: 30px;
         }
       
         @media only screen and (max-width: 414px) {
-          font-size: 32px;
+            font-size: 20px;
+        }
+    }
+
+    h5,
+    h6 {
+        font-size: 20px;
+        font-weight:300;
+        line-height: 2rem;
+        padding: 0.5rem 0;
+        // text-transform: uppercase;
+        color: #000;
+        font-family: 'Motiva Sans Bold', serif;
+        
+        @media only screen and (max-width: 890px) {
+          font-size: 20px;
+        }
+      
+        @media only screen and (max-width: 414px) {
+            font-size: 10px;
         }
     }
 
     p {
         color: #18216d;
-        font-size: 21px;        
+        font-size: 15px;        
         line-height: 1.41;
     }
 
@@ -126,3 +147,7 @@ export const Styles = createGlobalStyle`
         width: 300px !important;
     }
 `;
+
+    // color: #18216d;
+    // font-size: 56px;
+    // line-height: 1.18;

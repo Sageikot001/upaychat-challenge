@@ -2,6 +2,9 @@ import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
+import UsesContent from "../../content/UsesContent.json";
+import UseBlock from "../../components/UseBlock";
+import Cards from "../../components/Cards";
 
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
@@ -33,6 +36,14 @@ const Home = () => {
         content={MissionContent.text}
         icon="role.png"
         id="mission"
+      />
+
+        {/* <Cards/> */}
+
+      <UseBlock
+      title={UsesContent.title}
+      content={UsesContent.section}
+      image={UsesContent.section.map(item => item.image)}
       />
     </Container>
   );

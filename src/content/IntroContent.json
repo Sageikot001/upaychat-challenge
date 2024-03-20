@@ -3,10 +3,12 @@
   "text": "Quick, Safe way to send and receive social payments online.",
   "image": [
     {
-      "src": "/img/svg/appstoredownload.svg"
+      "src": "/img/svg/appstoredownload.svg",
+      "link": "https://apps.apple.com/app/upaychat/id1548246385"
     },
     {
-      "src": "/img/svg/playstore-download.svg"
+      "src": "/img/svg/playstore-download.svg",
+      "link": "https://play.google.com/store/apps/details?id=com.upaychat.finance"
     }
   ],
 

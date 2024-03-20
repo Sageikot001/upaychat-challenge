@@ -15,7 +15,6 @@ import {
   Outline,
   Span,
   Button,
-  Box,
 } from "./styles";
 
 const Header = ({ t }: { t: TFunction }) => {
@@ -48,7 +47,7 @@ const Header = ({ t }: { t: TFunction }) => {
       
         <CustomNavLinkSmall
           style={{ marginLeft: "180px" }}
-          onClick={() => scrollTo("contact")}
+          onClick={() => ("")}
         >
           <Span>
             <Button>{t("Login")}</Button>
@@ -56,7 +55,7 @@ const Header = ({ t }: { t: TFunction }) => {
         </CustomNavLinkSmall>
 
         <CustomNavLinkSmall
-          onClick={() => scrollTo("contact")}
+          onClick={() => ("")}
         >
           <Span>
             <Button>{t("Register")}</Button>

@@ -3,7 +3,6 @@ import { Fade } from "react-awesome-reveal";
 import { withTranslation } from "react-i18next";
 
 import { ContentBlockProps } from "./types";
-import { Button } from "../../common/Button";
 import { SvgIcon } from "../../common/SvgIcon";
 import {
   ContentSection,
@@ -23,7 +22,7 @@ const ContentBlock = ({
   title,
   content,
   section,
-  button,
+  link,
   t,
   image,
   id,
@@ -72,7 +71,7 @@ const ContentBlock = ({
                         key={index}
                         src={item.src}
                         alt={`Image ${index}`}
-                        onClick={() => scrollTo("about")}
+                        onClick={() => { window.location.href = item.link; }}
                       />
                     ))}
                   </ButtonWrapper>
