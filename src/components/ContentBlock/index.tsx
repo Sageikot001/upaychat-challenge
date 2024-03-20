@@ -13,6 +13,7 @@ import {
   MinTitle,
   MinPara,
   StyledRow,
+  H6,
   ButtonWrapper,
 } from "./styles";
 
@@ -49,8 +50,20 @@ const ContentBlock = ({
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
-            {title ? <h1>{t(title)}</h1> : <h6>{t(subtitle)}</h6>}
+            {title ? <h1>{t(title)}</h1> : null}
+              {!title && subtitle ? <H6>{t(subtitle)}</H6> : null}
               <Content>{t(content)}</Content>
+              {Array.isArray(section) && (
+            <ServiceWrapper>
+              <Row justify="space-between">
+                {section.map((item, index) => (
+                  <Col key={index} span={11}>
+                    <MinTitle>{t(item.title)}</MinTitle>
+                  </Col>
+                ))}
+              </Row>
+            </ServiceWrapper>
+          )}
               {direction === "right" ? (
                 <ButtonWrapper>
                    {Array.isArray(image) &&

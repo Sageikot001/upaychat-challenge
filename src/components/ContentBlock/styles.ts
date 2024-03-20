@@ -36,7 +36,18 @@ export const ServiceWrapper = styled("div")`
 
 export const MinTitle = styled("h6")`
   font-size: 15px;
+  font-weight: 600;
   line-height: 1rem;
+  padding: 0.5rem 0;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "Motiva Sans Light", sans-serif;
+`;
+
+export const H6 = styled("h6")`
+  font-size: 40px;
+  font-weight:1000;
+  line-height: 2rem;
   padding: 0.5rem 0;
   text-transform: uppercase;
   color: #000;

@@ -8,5 +8,13 @@
     {
       "src": "/img/svg/playstore-download.svg"
     }
+  ],
+
+  "section": [
+    {
+      "title": "Download the app",
+      "content": "",
+      "icon": ""
+    }
   ]
 }
