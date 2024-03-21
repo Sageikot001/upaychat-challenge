@@ -4,6 +4,7 @@ import { CardContentProps } from "../../common/Card/types";
 import { Container } from "./styles";
 
 const CardSection = () => {
+  
     const { standardCard, premiumCard, vipCard }: Record<string, CardContentProps> = CardContent;
 
   return (

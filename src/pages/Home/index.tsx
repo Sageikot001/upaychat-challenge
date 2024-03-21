@@ -41,7 +41,7 @@ const Home = () => {
         id="mission"
       />
 
-      <CardSection/>
+      <CardSection id="cardsection"/>
 
       <UseBlock
         title={UsesContent.title}
