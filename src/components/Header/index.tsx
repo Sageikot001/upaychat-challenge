@@ -45,7 +45,7 @@ const Header = () => {
           </CustomNavLinkSmall>
       
         <CustomNavLinkSmall
-          style={{ marginLeft: "180px" }}
+          // style={{ marginLeft: "180px" }}
           onClick={() => ("")}
         >
           <Span>

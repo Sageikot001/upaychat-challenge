@@ -4,46 +4,49 @@ export const Grid = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-text: center;
+  text-align: center; /* Corrected property name */
   gap: 30px;
   margin-bottom: 50px;
-  `;
-  
-  export const Container = styled.div`
-    display: flex;
+
+  @media screen and (max-width: 768px) {
     flex-direction: column;
-    align-text: center;
-    align-items: center;
-    margin-top: 15rem;
-    
-    `;
+    gap: 20px;
+  }
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+`;
+
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: center; /* Corrected property name */
+  align-items: center;
+  margin-top: 15rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 10rem; /* Adjust the margin as needed */
+  }
+
+  @media screen and (max-width: 480px) {
+    margin-top: 5rem; /* Adjust the margin as needed */
+  }
+`;
 
 export const Column = styled.div`
   flex: 1;
-  `;
-  
-  export const TextWrapper = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    max-width: 800px; /* Adjust as needed */
-  `;
-// Add additional styles as needed
+`;
 
-// import styled from 'styled-components';
+export const TextWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 800px; /* Adjust as needed */
 
-// export const Container = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-// `;
-
-
-// export const Column = styled.div`
-//   width: calc(33.33% - 10px); /* Divide the container into three columns with a gap of 10px */
-//   padding: 10px;
-//   background-color: #f0f0f0; /* Example background color */
-//   border-radius: 5px;
-//   text-align: center;
-// `;
+  @media screen and (max-width: 480px) {
+    max-width: 100%; /* Adjust the width for smaller screens */
+  }
+`;
