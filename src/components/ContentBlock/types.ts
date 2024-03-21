@@ -4,6 +4,7 @@ import { TFunction } from "react-i18next";
 interface ImageItem {
   src: string;
 }
+
 export interface ContentBlockProps {
   icon: string;
   title?: string;

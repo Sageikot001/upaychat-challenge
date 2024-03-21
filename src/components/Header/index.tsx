@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Row, Col, Drawer } from "antd";
-import { withTranslation, TFunction } from "react-i18next";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
 // import { Button } from "../../common/Button";
@@ -17,7 +16,7 @@ import {
   Button,
 } from "./styles";
 
-const Header = ({ t }: { t: TFunction }) => {
+const Header = () => {
   const [visible, setVisibility] = useState(false);
 
   const toggleButton = () => {
@@ -36,13 +35,13 @@ const Header = ({ t }: { t: TFunction }) => {
       <>
         
           <CustomNavLinkSmall onClick={() => scrollTo("intro")}>
-            <Span>{t("Send & Receive")}</Span>
+            <Span>{("Send & Receive")}</Span>
           </CustomNavLinkSmall>
           <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-            <Span>{t("Buy airtime & Data")}</Span>
+            <Span>{("Buy airtime & Data")}</Span>
           </CustomNavLinkSmall>
           <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-            <Span>{t("Pay Bills")}</Span>
+            <Span>{("Pay Bills")}</Span>
           </CustomNavLinkSmall>
       
         <CustomNavLinkSmall
@@ -50,7 +49,7 @@ const Header = ({ t }: { t: TFunction }) => {
           onClick={() => ("")}
         >
           <Span>
-            <Button>{t("Login")}</Button>
+            <Button>{("Login")}</Button>
           </Span>
         </CustomNavLinkSmall>
 
@@ -58,7 +57,7 @@ const Header = ({ t }: { t: TFunction }) => {
           onClick={() => ("")}
         >
           <Span>
-            <Button>{t("Register")}</Button>
+            <Button>{("Register")}</Button>
           </Span>
         </CustomNavLinkSmall>
       </>
@@ -98,4 +97,4 @@ const Header = ({ t }: { t: TFunction }) => {
   );
 };
 
-export default withTranslation()(Header);
+export default Header;

@@ -41,12 +41,11 @@ const Home = () => {
         id="mission"
       />
 
-      <CardSection id="cardsection"/>
+      <CardSection/>
 
       <UseBlock
         title={UsesContent.title}
         content={UsesContent.section}
-        image={UsesContent.section.image}
       />
     </Container>
   );
