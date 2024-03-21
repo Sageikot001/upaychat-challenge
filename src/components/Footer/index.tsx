@@ -129,32 +129,32 @@ const Footer = ({ t }: { t: TFunction }) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                href="https://github.com/Sageikot001/upaychat-challenge"
                 src="github.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://twitter.com/Ikotnsikak"
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="linkedin.com/in/nsikakabasi-ikot-5b45942a9"
                 src="linkedin.svg"
               />
               <SocialLink
-                href="https://medium.com/@lashakakabadze/"
+                href="https://medium.com"
                 src="medium.svg"
               />
               <a
-                href="https://ko-fi.com/Y8Y7H8BNJ"
+                href="https://sage-ikot-portfolio.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                {/* <img
                   height="36"
                   style={{ border: 0, height: 36 }}
-                  src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
-                  alt="Buy Me a Coffee at ko-fi.com"
-                />
+                  src=""
+                  alt="UpayChat"
+                /> */}
               </a>
             </FooterContainer>
           </Row>

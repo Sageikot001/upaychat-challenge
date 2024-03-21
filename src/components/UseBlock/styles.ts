@@ -1,10 +1,22 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Grid = styled.div`
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-`;
+  align-items: center;
+  align-text: center;
+  gap: 30px;
+  margin-bottom: 50px;
+  `;
+  
+  export const Container = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-text: center;
+    align-items: center;
+    margin-top: 15rem;
+    
+    `;
 
 export const Column = styled.div`
   flex: 1;

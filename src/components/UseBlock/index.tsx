@@ -1,5 +1,5 @@
 
-import { Container, TextWrapper, Column } from './styles'; // Import styled components
+import { Container, TextWrapper, Column, Grid } from './styles'; // Import styled components
 import { UseBlockProps } from './types';
 
 const UseBlock = ({ content, title, image }: UseBlockProps) => {
@@ -17,21 +17,23 @@ const UseBlock = ({ content, title, image }: UseBlockProps) => {
 
   return (
     <Container>
+    <h1>Why Use UpayChat</h1>
+    <Grid>
       {columns.map((column, columnIndex) => (
         <Column key={columnIndex}>
           {column.map((item, index) => (
-            <div key={index}>
+            <div key={index} style={{"width": "360px", "height": "140px"}}>
                 <div style={{'display':'flex'}}>
-              {/* Add an image placeholder */}
-              <img src={image} alt={`Image ${index}`} />
-              <h6>{item.title}</h6>
+                {item.image && <img src={item.image} alt={`Image ${index}`} style={{"width": "50px", "height": "50px"}}/>}
+                <h6>{item.title}</h6>
                 </div>
               <p>{item.content}</p>
             </div>
           ))}
         </Column>
       ))}
-    </Container>
+    </Grid>
+      </Container>
   );
 };
 

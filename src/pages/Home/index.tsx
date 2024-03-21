@@ -4,13 +4,16 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import UsesContent from "../../content/UsesContent.json";
 import UseBlock from "../../components/UseBlock";
-import Cards from "../../components/Cards";
+import CardSection from "../../components/CardSection";
+
 
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 
 const Home = () => {
+ 
+
   return (
     <Container>
       <ScrollToTop />
@@ -38,12 +41,12 @@ const Home = () => {
         id="mission"
       />
 
-        {/* <Cards/> */}
+      <CardSection/>
 
       <UseBlock
-      title={UsesContent.title}
-      content={UsesContent.section}
-      image={UsesContent.section.map(item => item.image)}
+        title={UsesContent.title}
+        content={UsesContent.section}
+        image={UsesContent.section.image}
       />
     </Container>
   );

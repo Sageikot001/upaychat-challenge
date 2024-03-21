@@ -4,84 +4,51 @@
       {
           "title": "Free cash transfer",
     "content": "It's free to open a UpayChat account, send or request money from anyone using UpayChat account balance.",
-    "image": 
-      {
-        "src": "/img/svg/appstoredownload.svg"
-      }
+    "image":  "/img/icons/cash.png"
     
   },
   {
       "title": "Manage your privacy settings",
       "content": "UpayChat enables you to choose who can see your payment you can set payment preference to \"friends\", \"public\", or \"private\".",
-      "image": [
-        {
-          "src": "/img/svg/appstoredownload.svg"
-        }
-      ]
+      "image":  "/img/icons/privacy.png"
+      
   },
   {
       "title": "Express yourself with a payment note",
       "content": "Upaychat included a note section in the payment page which provides details about the transaction to avoid confusion.",
       "image": 
-        {
-          "src": "/img/svg/appstoredownload.svg"
-        }
-      
+         "/img/icons/note.png"
+        
   },
   {
       "title": "Bill payment",
       "content": "Paying your bills is always fast and easy with Upaychat.",
-      "image": 
-        {
-          "src": "/img/svg/appstoredownload.svg"
-        }
-      
+      "image": "/img/icons/bills.png"
   },
   {
       "title": "Manage your Upaychat Balance",
       "content": "Add money to your UpayChat account balance with your debit card, credit card, or your existing bank account.",
-      "image": 
-        {
-          "src": "/img/svg/appstoredownload.svg"
-        }
-      
+      "image": "/img/icons/balance.png"    
   },
   {
       "title": "Receiving/Withdrawing money",
       "content": "You can receive money into your Upaychat or transfer your balance to your existing bank account.",
-      "image": 
-        {
-          "src": "/img/svg/appstoredownload.svg"
-        }
-      
+      "image":"/img/icons/bank.png"
   },
   {
       "title": "No monthly fee",
       "content": "Upaychat has no monthly fee, no maintenance fee, and no hidden fees or charges.",
-      "image": 
-        {
-          "src": "/img/svg/appstoredownload.svg"
-        }
-      
-  },
+      "image": "/img/icons/NGN.png"
+        },
   {
       "title": "Live chat with Customer Care",
       "content": "Click on setting & help in our mobile app to chat directly with our Customer Care at any time.",
-      "image": 
-        {
-          "src": "/img/svg/appstoredownload.svg"
-        }
-      
-  },
+      "image": "/img/icons/chat.png"
+        },
   {
     "title": "Security and Safety",
     "content": "With UpayChat, your payment information is always encrypted before sending to our servers. Our goal is to protect your online safety, the confidentiality of our customer account, and personal data.",
-    "image": 
-      {
-        "src": "/img/svg/appstoredownload.svg"
+    "image": "/img/icons/security.png"
       }
-
-    
-  }
 ]
 }

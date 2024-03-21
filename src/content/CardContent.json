@@ -1,0 +1,22 @@
+
+{
+    "standardCard": {
+      "image": "/img/svg/verve.png",
+      "benefits": ["Benefit 1", "Benefit 2", "Benefit 3"],
+      "description": "Standard card description",
+      "price": 29.99
+    },
+    "premiumCard": {
+      "image": "/img/svg/visa.png",
+      "benefits": ["Premium Benefit 1", "Premium Benefit 2", "Premium Benefit 3"],
+      "description": "Premium card description",
+      "price": 49.99
+    },
+    "vipCard": {
+      "image": "/img/svg/master.png",
+      "benefits": ["VIP Benefit 1", "VIP Benefit 2", "VIP Benefit 3"],
+      "description": "VIP card description",
+      "price": 99.99
+    }
+  }
+  
